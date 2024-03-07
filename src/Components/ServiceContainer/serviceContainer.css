@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: max-content;
+    border:1px dashed #0000001f;
+    margin: 5% auto;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .left {
+    width: 35%;
+    padding: 20px;
+    text-align: center;
+   
+  }
+  
+  .right {
+    width: 65%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .service-box {
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-box img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .service-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+  }
+  @media only screen and (max-width: 700px){
+    .service-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 18px;
+      }
+      /* .container{
+        display: ruby-text;
+      } */
+      .left
+      {
+        display: none;
+      }
+      .container{
+        height: max-content;
+      }
+      .right{
+        width: auto;
+        margin: auto;
+      }
+      .service-desc{
+      margin-top: 10px;
+
+font-size: 14px;
+      }
+      .service-btn{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: none;
+      }
+  }
+  @media (min-width:701px)  and (max-width: 1024px){
+    .left
+    {
+      display: none;
+    }
+    .container{
+      height: max-content;
+    }
+    .right{
+      width: auto;
+      margin: auto;
+    }
+    .service-btn{
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: none;
+    }
+    .service-desc{
+      font-size: 14px;
+      margin-top: 8px;
+            }
+            .service-box img{
+height: 150px;
+object-fit: cover;
+            }
+  }
