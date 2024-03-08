@@ -156,7 +156,7 @@ ul {
 }
 
 .footer-logo img {
-    max-width: 200px;
+    width: 80px;
 }
 
 .footer-text p {
@@ -266,9 +266,10 @@ ul {
 
 .copyright-area {
     background: #202020;
-    padding: 1px 0;
+    padding: 10px;
+    text-align: center;
 }
-
+/* 
 .copyright-text p {
     margin: 0;
     font-size: 14px;
@@ -291,7 +292,7 @@ ul {
 .footer-menu li a {
     font-size: 14px;
     color: #878787;
-}
+} */
 
 .row {
     display: flex;
@@ -299,6 +300,31 @@ ul {
 
     margin: 2%;
 }
+.social-footer {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  gap: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  
+  }
+  
+  .social-footer i {
+    color: #0ea0b8;
+    transition: 0.5s;
+    transform: scale(1);
+    font-size: 20px;
+  }
+  
+  .social-footer i:hover {
+    transform: scale(1.7);
+  
+  
+  }
+  
 
 @media screen and (max-width: 900px) {
     .footer-menu {
@@ -331,4 +357,5 @@ ul {
         padding: 2%;
 
     }
+   
 }
