@@ -51,7 +51,7 @@ const ServiceBox = ({ image, title, description,handleClick }) => {
           {selectedService && (
             <>
               <p>{selectedService.description}</p>
-              <button>Know More</button>
+              <button className='left-button'>Know More</button>
             </>
           )}
         </div>

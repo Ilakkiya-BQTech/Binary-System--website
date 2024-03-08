@@ -15,12 +15,12 @@ h3 {
 }
 .services{
     background-image: url('../../Assets/background.webp');
-    width: 80%;
+    width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
-    top: 50px;
+  
     margin: 0 auto;
     animation: zoomin 10s linear infinite alternate;
     height: auto;
@@ -36,7 +36,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
-    top: 20px;
+   
     animation: zoomin 10s linear infinite alternate;
 }
 .sliderWrapper .sliderTitle {
@@ -145,6 +145,37 @@ h3 {
     display: inline-block;
     text-align: center;
     pointer-events: none;
+}
+@media (min-width:701px)  and (max-width: 1024px){
+    .services{
+        width: 100%;
+    }
+    .sliderWrapper{
+        width: 80%;
+        top: 0;
+    }
+}
+@media only screen and (max-width: 700px){
+    .services{
+        width: 100%;
+    }
+    .sliderWrapper{
+        width: 80%;
+        top: 0;
+    }
+    .sliderWrapper > button{
+        top: 44%;
+        width: 30px;
+        height: 37px;
+    }
+    .sliderWrapper .slider .slide > h3 {
+        padding: 6px;
+    }
+    .sliderWrapper .sliderPagination{
+        margin-top: 20px;
+        padding: 9px;
+        font-size: 13px;
+    }
 }
 
 
