@@ -5,6 +5,7 @@ import ServiceContainer from './Components/ServiceContainer/ServiceContainer'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import ContactForm from './Components/Contact/Contact'
+import ClientCarousel from './Components/ClientSection/Client';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Slider/>
       <ServiceContainer/>
       <ContactForm />
+      <ClientCarousel/>
      <Footer/>
    
     </div>

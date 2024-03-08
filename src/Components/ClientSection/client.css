@@ -1,0 +1,72 @@
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px*9));
+    }
+}
+.client{
+    /* background:url('https://premiumaddons.com/wp-content/uploads/2022/03/clean-workspace-background.jpg'); */
+    background:url('https://i1.wp.com/athemeart.com/wp-content/themes/blogvogo/assets/title-bg-1.webp');
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    object-fit: cover;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.client-carousel{
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 95%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.client-logo{
+    display: flex;
+    gap: 10px;
+    width: calc(250px*18);
+    animation: scroll 40s linear infinite;
+}
+.client-logo:hover{
+    animation-play-state: paused;
+}
+.client-slide{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+.client-slide img{
+    width: 100%;
+    transition: transform 1s;
+}
+.client-slide img:hover{
+    transform: translateZ(20px);
+}
+.client-carousel::before,
+.client-carousel::after{
+    background: linear-gradient(to right,rgb(190, 184, 184)0%,rgba(255,255,255,0)50%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+.client-carousel::before{
+    left: 0;
+    top: 0;
+}
+.client-carousel::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
