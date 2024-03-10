@@ -14,7 +14,7 @@ h3 {
    }
 }
 .services{
-    background-image: url('../../Assets/background.webp');
+    background-image: url('https://e0.pxfuel.com/wallpapers/500/687/desktop-wallpaper-blue-simple-abstract-data-src-background-biru-abstrak.jpg');
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@ h3 {
     background-blend-mode: multiply;
   
     margin: 0 auto;
-    animation: zoomin 10s linear infinite alternate;
+    /* animation: zoomin 10s linear infinite alternate; */
     height: auto;
 }
 .sliderWrapper {
@@ -139,7 +139,7 @@ h3 {
 
 .sliderWrapper .sliderPagination {
     margin-top: 2rem;
-    background-color: rgba(52, 58, 64, 0.69);
+    background-color: #fff;
     border-radius: 1rem;
     padding: 14px;
     display: inline-block;

@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import ContactForm from './Components/Contact/Contact'
 import ClientCarousel from './Components/ClientSection/Client';
+import Hero from './Components/HeroSection/Hero';
 
 
 const App = () => {
@@ -13,8 +14,9 @@ const App = () => {
     <div className='App'>
       
       <Navbar/>
-      <Slider/>
+      <Hero/>
       <ServiceContainer/>
+      <Slider/>
       <ContactForm />
       <ClientCarousel/>
      <Footer/>

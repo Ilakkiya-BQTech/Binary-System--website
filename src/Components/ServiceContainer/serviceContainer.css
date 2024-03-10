@@ -6,7 +6,12 @@
   height: max-content;
   border: 1px dashed #0000001f;
   margin: 5% auto;
-  background-color: #f5f5f5;
+  /* background: url('https://thumb.ac-illust.com/42/42b1e02a8fca592ed82c13388dc11dfa_t.jpeg'); */
+  /* background: url('https://static.vecteezy.com/system/resources/previews/020/672/970/original/design-blue-two-tone-background-free-vector.jpg');
+  background-repeat: no-repeat; */
+ background-size: cover;
+ object-fit:cover;
+  /* background-color: #f5f5f5; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 }

@@ -1,6 +1,9 @@
 /* Footer Section */
 .footer-section {
     background-color: #98dee5;
+    
+    background-size: cover;
+ object-fit:cover;
     color: #fff;
     padding: 10px;
 

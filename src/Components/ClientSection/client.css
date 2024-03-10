@@ -8,9 +8,11 @@
     }
 }
 .client{
-    /* background:url('https://premiumaddons.com/wp-content/uploads/2022/03/clean-workspace-background.jpg'); */
-    background:url('https://i1.wp.com/athemeart.com/wp-content/themes/blogvogo/assets/title-bg-1.webp');
-    background-repeat: no-repeat;
+   
+    background:url('https://www.jga.co.in/wp-content/uploads/2019/12/Our-Client.png');
+    background-size: cover;
+ object-fit:cover;
+ background-position: center;
     height: 400px;
     text-align: center;
     color: white;
