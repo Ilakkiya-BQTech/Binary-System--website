@@ -13,7 +13,7 @@
     background-size: cover;
  object-fit:cover;
  background-position: center;
-    height: 400px;
+  
     text-align: center;
     color: white;
     padding: 20px;
@@ -32,7 +32,7 @@
 }
 .client-logo{
     display: flex;
-    gap: 10px;
+  
     width: calc(250px*18);
     animation: scroll 40s linear infinite;
 }
@@ -54,15 +54,7 @@
 .client-slide img:hover{
     transform: translateZ(20px);
 }
-.client-carousel::before,
-.client-carousel::after{
-    background: linear-gradient(to right,rgb(190, 184, 184)0%,rgba(255,255,255,0)50%);
-    content: '';
-    height: 100%;
-    position: absolute;
-    width: 15%;
-    z-index: 2;
-}
+
 .client-carousel::before{
     left: 0;
     top: 0;
@@ -71,4 +63,12 @@
     right: 0;
     top: 0;
     transform: rotateZ(180deg);
+}
+@media only screen and (max-width: 700px){
+    .client h1{
+        font-size: 20px;
+    }
+    .client-slide img{
+        width: 83%;
+    }
 }

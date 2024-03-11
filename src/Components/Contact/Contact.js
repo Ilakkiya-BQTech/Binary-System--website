@@ -34,7 +34,7 @@ const ContactForm = () => {
         <form>
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
-          <textarea rows="4" placeholder="Tell us about your project..."></textarea>
+          <textarea placeholder="Tell us about your project..."></textarea>
           <button type="button">SEND</button>
         </form>
       </div>

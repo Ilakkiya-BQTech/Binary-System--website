@@ -1,31 +1,32 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './card.css'
-import Background from '../../Assets/background.webp'
+import Card1 from '../../Assets/1.png'
+import Card2 from '../../Assets/2.png'
+import Card3 from '../../Assets/3.png'
+import Card4 from '../../Assets/NE_F100.jpg'
+import Card5 from '../../Assets/aayushman card rajasthan (front).jpg'
+
 const Slider = () => {
   const images = [
     {
-      source: "https://www.binarysystemsinfo.com/assets/img/services/data-entry.jpg",
-      title: "Data Entry/Processing"
+      source:Card1,
+      title: "Card Pattern 1"
     },
     {
-      source:"https://www.binarysystemsinfo.com/assets/img/services/data-processing.jpg",
-      title: "Variable Printing"
+      source:Card2,
+      title: "Card Pattern 2"
     },
     {
-      source: "https://www.binarysystemsinfo.com/assets/img/services/pvc-janaadhar.jpg",
-      title: "PVC/RFID Card manufacturing"
+      source:Card3,
+      title: "Card Pattern 3"
     },
     {
-      source: "https://www.binarysystemsinfo.com/assets/img/services/laser-printing.jpg",
-      title: "Scanning / Digitization"
+      source: Card4,
+      title: "Card Pattern 4"
     },
     {
-      source: "https://www.binarysystemsinfo.com/assets/img/services/photo-imaging.jpg",
-      title: "End to End Examination / Result Processing"
-    },
-    {
-      source: "https://www.binarysystemsinfo.com/assets/img/services/web-designing.jpg",
-      title: "E-Governance Services"
+      source:Card5,
+      title: "Card Pattern 5"
     },
     
   ];
@@ -43,7 +44,7 @@ const Slider = () => {
       : (newSlideNumber =
           slideNumber === totalNoofSlides ? 0 : slideNumber + 1);
     setSlideNumber(newSlideNumber);
-    setBackgroundImage(Background);
+    // setBackgroundImage(Background);
     
   };
 
