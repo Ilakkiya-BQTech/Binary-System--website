@@ -260,7 +260,7 @@ ul {
 }
 
 .social-footer {
-    width: 50%;
+    /* width: 50%; */
     margin: auto;
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -326,4 +326,10 @@ ul {
         margin: 0 15%;
     }
 
+}
+@media (min-width:901px) and (max-width:1024px) {
+    .social-footer{
+        gap: 6px;
+
+    }
 }

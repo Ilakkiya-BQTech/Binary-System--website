@@ -163,7 +163,8 @@
 
   .service-desc {
     font-size: 14px;
-    margin-top: 8px;
+    margin-top: 10px;
+    height: 125px;
   }
 
   .service-box img {

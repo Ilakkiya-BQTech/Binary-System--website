@@ -19,7 +19,7 @@ const Hero = () => {
                 <h1>Design Your Card</h1>
                 <p>
                 Empowering authenticity, crafting security. Your confidence, our priority.
-                    <br />
+                 
                     Crafting confidence, shaping identities.
                 </p>
                 <div className='herosection-button'>
