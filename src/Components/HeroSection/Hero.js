@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div className='hero-section'>
            <div className='info'>
-                <img src="https://img.logoipsum.com/245.svg" alt="Logo" />
+                <img src="https://img.logoipsum.com/245.svg" alt="design" />
                 <div className="blob" id="blob1"></div>
                 <div className="blob" id="blob2"></div>
                 <div className="blob" id="blob3"></div>

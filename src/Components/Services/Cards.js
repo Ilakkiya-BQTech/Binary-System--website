@@ -69,7 +69,7 @@ const Slider = () => {
             {images.map((image, index) => (
               <div key={index} className={`slide${index === slideNumber ? " active" : ""}`}>
                 {image.source && <img src={image.source} alt={image.title} loading="lazy" draggable={false} />}
-                {image.title && <h3>{image.title}</h3>}
+                
               </div>
             ))}
           </div>

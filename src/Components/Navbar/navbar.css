@@ -4,30 +4,59 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 60px;
+	height: 11%;
 	padding: 0 2rem;
 	background-color: #29335c;
 	color: #eee;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+
    
    
 }
 .logo img{
     width: 31%;
     margin: 8px 45px;
-    /* background-color: #eee; */
 }
 nav a {
 	margin: 0 1rem;
 	color: #eee;
 	text-decoration: none;
     cursor: pointer;
-    font-family: poppins;
+ 
 }
 
 nav a:hover {
-	color: #db2b39;
-  
-   
+	color: #258DEB;
+	
+}
+nav a {
+    margin: 0 1rem;
+    color: #eee;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -7px; 
+    width: 0%;
+    height: 2px; 
+    background-color: #258DEB; 
+    transition: width 0.7s ease, left 0.3s ease; 
+}
+
+nav a:hover::after {
+    width: 100%; 
+    left: 0; 
+}
+
+nav a:hover {
+    color: #258DEB;
 }
 
 .header .nav-btn {
@@ -64,9 +93,9 @@ nav {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items:flex-start;
 		justify-content: center;
-		gap: 1.5rem;
+		gap: 2rem;
 		background-color: #29335c;
 		transition: 1s;
         z-index: 999;
@@ -86,10 +115,10 @@ nav {
 		font-size: 1.5rem;
 	}
     .logo img{
-        width: 100%;
-        margin: 8px 25px;
-    object-fit: cover;
-    height: 20px;
+		width: 34%;
+		/* margin: 8px 25px; */
+		object-fit: cover;
+		height: auto;
     }
     .header{
         padding: 0;

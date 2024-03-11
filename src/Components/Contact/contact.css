@@ -7,7 +7,7 @@
 /* Pretty Stuff */
 .contact-form-container {
   background: #F4F3F3;
-  font-family: 'Lato', sans-serif; }
+ }
 
 .contact-us {
   position: relative;
@@ -108,7 +108,7 @@ form {
     resize: none;
     outline: none;
     font-size: 1rem;
-    font-family: lato;
+   
     color: rgba(68, 68, 68, 0.8); }
   form button {
     position: absolute;
@@ -164,7 +164,10 @@ form {
 
 .contact-form {
   grid-area: contact-form; }
-  
+  .copyright-area{
+    text-align: center;
+   
+  }
 
   @media (min-width:701px)  and (max-width: 1024px){
     .contact-us{
@@ -180,6 +183,7 @@ form {
     .contact-form-container{
         width: 94%;
         grid-template-columns: 0fr 1fr ;
+        background: url('https://img.freepik.com/free-photo/stylish-blue-abstract-background-with-text-space_1017-46766.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1710028800&semt=ais')
     }
 
     .contact-us{
@@ -203,17 +207,15 @@ form {
         width: auto;
         padding: 10px 8px;
     }
-    .phone{
-        display: none;
-    }
-    .contact-form-container{
-        grid-template-areas:"contact-us header header header"
-        "contact-us address  email"
-        "contact-us contact-form contact-form contact-form"
+    .contact-us{
+      display: none;
     }
     form button{
       height: 30px;
       width: 129px;
       left: 100px;
+    }
+    .contact-form{
+      padding: 10x;
     }
 }

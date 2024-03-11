@@ -1,12 +1,7 @@
 .hero-section {
   margin: 0;
-  /* background-image: linear-gradient(-30deg,
-      #3f51b5 0%,
-      #2196f3 50%,
-      #87ceeb 100%); */
-  /* overflow-x: hidden; */
   color: white;
-  font-family: sans-serif;
+ 
   height: 100vh;
   width: 100%;
   position: relative;
@@ -189,7 +184,7 @@ button:hover span {
     height: 100vh;
   }
 
-  .logo img {
+  .design img {
     top: -6px;
     left: 0px;
     width: 20%;

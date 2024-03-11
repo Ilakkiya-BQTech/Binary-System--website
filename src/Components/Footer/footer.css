@@ -1,6 +1,8 @@
 /* Footer Section */
 .footer-section {
     background-color: #98dee5;
+background: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdHAyNDQtYmcxLTAxXzEuanBn.jpg');
+background-position: center;
 
     background-size: cover;
     object-fit: cover;
@@ -159,7 +161,7 @@ ul {
     display: block;
     font-size: 20px;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+    
     margin-bottom: 20px;
 }
 
@@ -300,6 +302,15 @@ ul {
         margin: 5% 6%;
        
     }
+    .footer-section{
+        background-color: #98dee5;
+background: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdHAyNDQtYmcxLTAxXzEuanBn.jpg');
+background-position: center;
+
+    background-size: cover;
+    object-fit: cover;
+    
+    }
 
     .subscribe-form button {
         position: absolute;
@@ -324,6 +335,9 @@ ul {
     }
     .social-footer{
         margin: 0 15%;
+    }
+    .copyright-area{
+        text-align: center;
     }
 
 }
