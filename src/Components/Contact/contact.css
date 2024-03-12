@@ -95,7 +95,8 @@ form {
     display: block;
     margin: 20px auto;
     width: 100%;
-    border: 0; }
+    border: 0;
+    font-family: 'Open Sans', sans-serif; }
   form input {
     height: 40px;
     line-height: 40px;
@@ -108,7 +109,7 @@ form {
     resize: none;
     outline: none;
     font-size: 1rem;
-   
+    font-family: 'Open Sans', sans-serif;
     color: rgba(68, 68, 68, 0.8); }
   form button {
     position: absolute;
@@ -163,7 +164,8 @@ form {
   grid-area: email; }
 
 .contact-form {
-  grid-area: contact-form; }
+  grid-area: contact-form; 
+ }
   .copyright-area{
     text-align: center;
    
