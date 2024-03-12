@@ -128,7 +128,10 @@ form {
 
 .contact-form {
   padding-bottom: 40px; }
-
+.contact{
+  font-size: 28px;
+  font-weight: bold;
+}
 /* Layout Stuff */
 .contact-page{
   
