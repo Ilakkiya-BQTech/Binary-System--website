@@ -69,6 +69,15 @@
         font-size: 20px;
     }
     .client-slide img{
-        width: 83%;
+        width: 100%;
     }
+
+        .client{
+            background-size: 182vw 50vh;
+          
+            background-position: left;
+        
+        }
+    
+    
 }
