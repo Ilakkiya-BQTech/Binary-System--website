@@ -66,7 +66,7 @@ const App = () => {
           <Route exact path='/aboutus' element={<ServicePage/>} />
           <Route exact path='/data-entry' element={<DataEntry/>} />
         </Routes>
-        <HomePage/>
+       
        <Footer/>
        
         

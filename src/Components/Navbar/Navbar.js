@@ -20,7 +20,7 @@ function Navbar() {
         <img src={Logo} alt='' />
       </div>
       <nav ref={navRef}>
-      <a href="/#">Home</a>
+      <a href="/home">Home</a>
         <a href="/aboutus">About Us</a>
         <a href="/service">Services</a>
         <a href="/#">Card Designs</a>

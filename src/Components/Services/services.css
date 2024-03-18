@@ -265,6 +265,15 @@ a:hover {
   justify-content: center;
   position: relative;
 }
+.we-are-block h2{
+  font-size: 27px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px;
+  color: #0c4c91;
+  text-shadow: 2px 2px 2px #ccc;
+
+}
 
 @media screen and (max-width: 860px) {
   #history-section {
