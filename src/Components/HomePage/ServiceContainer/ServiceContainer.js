@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import './serviceContainer.css'; // Import your CSS file
-import Image1 from '../../Assets/data-entry.jpg';
-import Image2 from '../../Assets/data-processing.jpg';
-import Image3 from '../../Assets/education.jpg';
-import Image4 from '../../Assets/exam-end-toend.jpg';
-import Image5 from '../../Assets/hardware.jpg';
-import Image6 from '../../Assets/govt-semi.jpg';
+import Image1 from '../../../Assets/data-entry.jpg';
+import Image2 from '../../../Assets/data-processing.jpg';
+import Image3 from '../../../Assets/education.jpg';
+import Image4 from '../../../Assets/exam-end-toend.jpg';
+import Image5 from '../../../Assets/hardware.jpg';
+import Image6 from '../../../Assets/govt-semi.jpg';
 
 const services = [
   { image: Image1, title: 'PVC/RFID Card manufacturing', description: 'With the recent technological boost & IT revolution, digitization and e-governance happening all around, various Governments, Educational & Corporate ...' },

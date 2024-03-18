@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './card.css'
-import Card1 from '../../Assets/1.png'
-import Card2 from '../../Assets/2.png'
-import Card3 from '../../Assets/3.png'
-import Card4 from '../../Assets/NE_F100.jpg'
-import Card5 from '../../Assets/aayushman card rajasthan (front).jpg'
+import Card1 from '../../../Assets/1.png'
+import Card2 from '../../../Assets/2.png'
+import Card3 from '../../../Assets/3.png'
+import Card4 from '../../../Assets/NE_F100.jpg'
+import Card5 from '../../../Assets/aayushman card rajasthan (front).jpg'
 
 const Slider = () => {
   const images = [

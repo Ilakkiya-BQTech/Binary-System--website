@@ -1,0 +1,88 @@
+.about-company{
+    width: 100%;
+    height: 400px;
+}
+
+.hero2{
+    
+    height: 100%;
+     background-size: cover;
+    background-image: linear-gradient(to bottom left,
+        rgba(0, 0, 0, .4),
+        rgba(0, 0, 0, 1)
+      ), url("https://www.binarysystemsinfo.com/assets/img/binary-company.jpg");
+    background-position: center;
+    filter: grayscale(40%);
+    
+   
+  }
+  .border-text{
+    width: 192px;
+    text-transform: uppercase;
+    z-index: 1;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    color: orange;
+    text-align: left;
+   overflow: hidden;
+  
+  }
+  .hero2-text{
+    z-index: 0;
+    margin-left: 5%;
+    width: 36%;
+    top: 38%;
+  
+    letter-spacing: 1.8px;
+    position: relative;
+    border: solid orange 2px;
+    padding: 20px;
+  }
+  .hero2-text p{
+    margin: 0px;
+    color: #fff;
+  }
+.Company-name{
+    font-size: 35px;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+    color: orange;
+  }
+  .about-button{
+    position: relative;
+    border: solid orange 3px;
+    border-radius: 0;
+    background-color: hsl(0, 0, 13);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 0;
+    bottom: -40px;
+    color: orange;
+    font-size: 18px;
+  }
+  .about-button:hover{
+    transform: translate(0px);
+     box-shadow: 0px 2px 2px rgba(0, 0, 0, .25);
+     color: orange;
+    background-color: black;
+    border: solid orange 3px;
+  }
+
+
+
+ @media only screen and (max-width: 600px) {
+	 .hero-text, .hero2-text, .hero3-text {
+		 top: 10px;
+		 margin: auto;
+	}
+	 .hero-text h1, .hero2-text h1, .hero3-text h1 {
+		 font-size: 30px;
+	}
+	 .hero-text p, .hero2-text p, .hero3-text p {
+		 font-size: 18px;
+	}
+	 .hero-text button, .hero2-text button, .hero3-text button {
+		 font-size: 16px;
+	}
+}
+ 

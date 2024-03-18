@@ -1,14 +1,15 @@
 import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
-import Slider from './Components/Services/Cards'
-import ServiceContainer from './Components/ServiceContainer/ServiceContainer'
-import Navbar from './Components/Navbar/Navbar'
-import Footer from './Components/Footer/Footer'
-import ContactForm from './Components/Contact/Contact'
-import ClientCarousel from './Components/ClientSection/Client';
-import Hero from './Components/HeroSection/Hero';
-import Chat from './Assets/chatbox - new - logo.png'
+
+import HomePage from './Components/HomePage/HomePage';
+import ServicePage from './Components/ServicesPage/ServicePage';
+import Project from './Components/Project/project';
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
+import Services from './Components/Services/Services';
+import PvcCard from './Components/Services/PVC/PvcCard';
+import DataEntry from './Components/Services/DataEntry/DataEntry';
 
 const App = () => {
   return (
@@ -57,15 +58,18 @@ const App = () => {
       </div>
 
       <div className='App'>
-
-        <Navbar />
-        <Hero />
-        <ServiceContainer />
-        <Slider />
-        <ContactForm />
-        <ClientCarousel />
-        <Footer />
-
+        <Navbar/>
+        <Routes>
+          <Route exact path='*' element={<HomePage/>} />
+          <Route exact path='/service' element={<Services/>} />
+          <Route exact path='/project' element={<Project/>} />
+          <Route exact path='/aboutus' element={<ServicePage/>} />
+          <Route exact path='/data-entry' element={<DataEntry/>} />
+        </Routes>
+        <HomePage/>
+       <Footer/>
+       
+        
       </div>
     </>
   )

@@ -1,0 +1,75 @@
+.data-entry{
+    width: 100%;
+    padding-top: 76px;
+    margin: 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+   
+    
+}
+/* Component start */
+.data {
+    background-image: url('https://www.binarysystemsinfo.com/assets/img/services/data-entry.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    &.no-bg-image {
+      background-image: none;
+      background-color: #0c4b82;
+    }
+    &.fixed {
+      background-attachment: fixed;
+    }
+   
+    
+      
+    }
+  
+  .vertical-align-middle{
+    display: table;
+    width: 100%;
+    height: 100%;
+    &.text-center {
+      text-align:center;
+    }
+}
+    .wrapper-img{
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        color: #000;
+        font-weight:900;
+       
+      }
+   
+    .wrapper h1 {
+      margin: 20px;
+      padding: 30px;
+      font-size: 54px;
+      text-transform: uppercase;
+    }
+    .wrapper h4 {
+      margin: 0;
+      padding: 0px 50px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: left;
+    }
+    p {
+      text-transform: none;
+      font-size: 12px;
+    }
+    @media only screen and (max-width:760px){
+        .data-entry{
+            width: 130%;
+        }
+        .wrapper h4{
+          padding: 10px;
+        }
+    }

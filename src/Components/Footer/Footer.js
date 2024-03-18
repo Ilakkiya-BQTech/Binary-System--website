@@ -1,6 +1,5 @@
 import React from 'react'
 import '@fortawesome/fontawesome-free/css/all.css';
-import { FaFacebookF, FaTwitter, FaInstagram, FaDribbble } from 'react-icons/fa';
 import Logo from '../../Assets/BinarySystemsLogo.png'
 import './footer.css'
 const Footer = () => {

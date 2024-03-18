@@ -136,7 +136,7 @@ form {
 .contact-page{
   
   height: 90vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
