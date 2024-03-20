@@ -46,8 +46,9 @@ const Services = () => {
     ]
     return (
         <div className='servicePage-container'>
-
+           <h1>Our Services</h1>
             <div className="service-page">
+                
                 <BsArrowLeftCircleFill onClick={prevSlide} className="arrow arrow-left" />
                 {slides.map((item, idx) => {
                     return (
@@ -78,13 +79,12 @@ const Services = () => {
                 </span>
             </div>
             <div className='servicepage-container'>
-                <div className='service-title'>Our Services</div>
-                <div className="we-are-block">
+               <div className="we-are-block">
                 <h2>PVC/RFID – Card manufacturing</h2>
                     <div id="about-us-section">
                     
                         <div className="about-us-image">
-                            <img src="https://image.made-in-china.com/202f0j00rauGZWLmgCbI/13-56MHz-PVC-I-Code-2-RFID-Cards-Contactless-Smart-Cards.webp" width="808" height="458" alt="Lobby Image" />
+                            <img src="https://image.made-in-china.com/202f0j00rauGZWLmgCbI/13-56MHz-PVC-I-Code-2-RFID-Cards-Contactless-Smart-Cards.webp" width="808" height="358" alt="Lobby Image" />
                         </div>
                         <div className="about-us-info">
                             
@@ -156,7 +156,9 @@ const Services = () => {
                     </div>
                 </div>
             </div>
+            <div className='service-contact'>
             <ContactForm/>
+            </div>
         </div>
     )
 }

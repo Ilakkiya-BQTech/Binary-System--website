@@ -8,7 +8,7 @@
 .contact-form-container {
   background: #F4F3F3;
  }
-
+ 
 .contact-us {
   position: relative;
   width: 250px;
@@ -125,9 +125,14 @@ form {
     font-size: 1.1rem;
     font-weight: 300;
     outline: none; }
+    form button:hover{
+      background-color: #ccc;
+      color: #004259;
+    }
 
 .contact-form {
-  padding-bottom: 40px; }
+  padding-bottom: 40px; 
+  margin: 10px;}
 .contact{
   font-size: 28px;
   font-weight: bold;
@@ -135,7 +140,7 @@ form {
 /* Layout Stuff */
 .contact-page{
   
-  height: 90vh;
+  /* height: 90vh; */
   width: 100%;
   position: relative;
   background-size: cover;
@@ -180,6 +185,7 @@ form {
     }
     .contact-form-container{
         width: 695px;
+        
     }
    
   }
@@ -190,7 +196,7 @@ form {
         grid-template-columns: 0fr 1fr ;
         background: url('https://img.freepik.com/free-photo/stylish-blue-abstract-background-with-text-space_1017-46766.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1710028800&semt=ais')
     }
-
+   
     .contact-us{
         width: 50px;
     }
@@ -221,6 +227,6 @@ form {
       left: 100px;
     }
     .contact-form{
-      padding: 10x;
+      padding: 10px;
     }
 }

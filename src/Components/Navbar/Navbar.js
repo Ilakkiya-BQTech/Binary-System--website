@@ -5,6 +5,7 @@ import Logo from '../../Assets/BinarySystemsLogo.png';
 import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+  // const [isOpen, setIsOpen] = useState(false);
   const navRef = useRef();
   const navigate = useNavigate();
 
@@ -21,9 +22,9 @@ function Navbar() {
       </div>
       <nav ref={navRef}>
       <a href="/home">Home</a>
-        <a href="/aboutus">About Us</a>
+        {/* <a href="/aboutus">About Us</a> */}
         <a href="/service">Services</a>
-        <a href="/#">Card Designs</a>
+        {/* <a href="/#">Card Designs</a> */}
         <a href="/project">Major Projects</a>
         <a href="/#">Contact</a>
 

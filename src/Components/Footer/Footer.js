@@ -2,7 +2,9 @@ import React from 'react'
 import '@fortawesome/fontawesome-free/css/all.css';
 import Logo from '../../Assets/BinarySystemsLogo.png'
 import './footer.css'
+import { useNavigate } from 'react-router-dom';
 const Footer = () => {
+    const navigate=useNavigate();
     return (
         <footer className="footer-section">
             <div className="footer-container">
@@ -23,13 +25,13 @@ const Footer = () => {
                             <h3>Useful Links</h3>
                         </div>
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="#" onClick={() => { navigate("/home") }}>Home</a></li>
                             <li><a href="#">about</a></li>
-                            <li><a href="#">services</a></li>
-
+                            <li><a href="#" onClick={() => { navigate("/service") }}>Our services</a></li>
+                            <li><a href="#"  onClick={() => { navigate("/project") }}>Major Projects</a></li>
                             <li><a href="#">Contact</a></li>
                             <li><a href="#">About us</a></li>
-                            <li><a href="#">Our Services</a></li>
+                          
                             <li><a href="#">Expert Team</a></li>
                             <li><a href="#">Contact us</a></li>
 
@@ -73,33 +75,11 @@ const Footer = () => {
                             <i className="fab fa-twitter"></i>
                             <i className="fab fa-linkedin-in"></i>
                         </div>
-
-                    </div>
+                        </div>
                 </div>
-
-            </div>
+                </div>
             <div className="copyright-area">
             <p>Copyright &copy; 2022, Binary System</p>
-                {/* <div className="footer-container">
-                    <div className="copyright-text">
-                        <p>Copyright &copy; 2022, Binary System
-
-                        </p>
-                    </div>
-                    <div className="row">
-
-
-
-                        <div className="footer-menu">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Quality Control</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> */}
-
             </div>
         </footer>
 

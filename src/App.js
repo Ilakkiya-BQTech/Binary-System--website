@@ -8,8 +8,8 @@ import Project from './Components/Project/project';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Services from './Components/Services/Services';
-import PvcCard from './Components/Services/PVC/PvcCard';
 import DataEntry from './Components/Services/DataEntry/DataEntry';
+
 
 const App = () => {
   return (
@@ -63,8 +63,8 @@ const App = () => {
           <Route exact path='*' element={<HomePage/>} />
           <Route exact path='/service' element={<Services/>} />
           <Route exact path='/project' element={<Project/>} />
-          <Route exact path='/aboutus' element={<ServicePage/>} />
-          <Route exact path='/data-entry' element={<DataEntry/>} />
+          {/* <Route exact path='/aboutus' element={<ServicePage/>} />
+          <Route exact path='/data-entry' element={<DataEntry/>} /> */}
         </Routes>
        
        <Footer/>
